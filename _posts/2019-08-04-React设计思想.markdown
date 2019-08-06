@@ -4,7 +4,7 @@ title:      React 设计思想
 subtitle:   核心开发者阐述React的心智模型
 date:       2019-08-04
 author:     Aro
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/post-react-core-zh.png
 catalog: true
 tags:
     - React
@@ -32,9 +32,7 @@ React.js 的真实实现中充满了具体问题的解决方案，渐进式的�
 function NameBox(name) {
   return { fontWeight: 'bold', labelContent: name };
 }
-```
 
-```js
 'Aro Zhou' ->
 { fontWeight: 'bold', labelContent: 'Aro Zhou' };
 ```
@@ -54,9 +52,7 @@ function FancyUserBox(user) {
     ]
   };
 }
-```
 
-```js
 { firstName: 'Sebastian', lastName: 'Markbåge' } ->
 {
   borderStyle: '1px solid blue',
@@ -105,7 +101,6 @@ function FancyNameBox(user, likes, onClick) {
 }
 
 // 实现细节
-
 var likes = 0;
 function addOneMoreLike() {
   likes++;
@@ -113,7 +108,6 @@ function addOneMoreLike() {
 }
 
 // 初始化
-
 FancyNameBox(
   { firstName: 'Sebastian', lastName: 'Markbåge' },
   likes,
@@ -202,7 +196,6 @@ const resolvedBox = {
   ...box,
   children: resolvedChildren
 };
-
 ```
 
 

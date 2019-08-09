@@ -112,7 +112,7 @@ window.removeEventListener('onmessageWS', getData)
 
 交易中心的数据原本是通过Http请求获得，通信只能由客户端发起。这种单向请求的特点，注定了如果服务器有连续的状态变化，客户端要获知就会非常麻烦。我们只能用“轮询”：每隔一段时间，就发出一个询问，了解服务器有没有新的信息。
 
-![HTTP-LONG-POLLING](/img/HTTP-LONG-POLLING.png)
+![20190809HTTP-LONG-POLLING](/img/HTTP-LONG-POLLING.png)
 
 轮询的效率低，非常浪费资源（因为必须不停连接，或者 HTTP 连接始终打开）。因此，工程师们一直在思考，有没有更好的方法。WebSocket 就是这样发明的。
 
@@ -122,7 +122,7 @@ window.removeEventListener('onmessageWS', getData)
 WebSocket 协议在2008年诞生，2011年成为国际标准。<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E6%80%A7" target="_blank">大部分浏览器都已经支持</a>
 它的最大特点就是，服务器可以主动向客户端推送信息，客户端也可以主动向服务器发送信息，是真正的双向平等对话。
 
-![Http&WebSocket](/img/Http&WebSocket.png)
+![20190809Http&WebSocket](/img/Http&WebSocket.png)
 
 还有很多特点：
 - 建立在 TCP 协议之上，服务器端的实现比较容易。
@@ -133,7 +133,7 @@ WebSocket 协议在2008年诞生，2011年成为国际标准。<a href="https://
 - 协议标识符是ws（如果加密，则为wss），服务器网址就是 URL。
 
 
-## API(<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket">参考自MDN</a>)
+## API
 
 ### 构造函数
 
@@ -185,6 +185,7 @@ WebSocket.CLOSED | 3
     - ArrayBufferView
 
 
+# 参考链接
 
-
+- <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket">https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket</a>
 

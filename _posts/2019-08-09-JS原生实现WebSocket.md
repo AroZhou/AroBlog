@@ -187,5 +187,5 @@ WebSocket.CLOSED | 3
 
 # 参考链接
 
-- <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket">https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket</a>
+- <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket" target="_blank">https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket</a>
 

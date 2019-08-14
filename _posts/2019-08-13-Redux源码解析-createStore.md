@@ -11,7 +11,7 @@ tags:
     - 前端
 ---
 
->目前Redux的版本为4.0.4
+>目前所分析的Redux版本为4.0.4。`createStore`这个模块就是用于创建一个`store`对象，同时，对外暴露出`dispatch`,`getState`,`subscribe`和`replaceReducer`方法。
 
 
 ## 分析
@@ -200,14 +200,12 @@ function observable() {
     }
 }
 ```
-
 这个方法用于提供观察者模式的操作。
 
 
 ## createStore.js
 
->直接贴了英文注释的源码，这样每个人都有自己的翻译和理解。代码英文注释的非常详细，值得细细品味。`createStore`是`redux`核心的模块之一。这个模块就是用于创建一个`store`对象，同时，对外暴露出`dispatch`,`getState`,`subscribe`和`replaceReducer`方法。
-
+>直接贴了源码。代码英文注释的很详细，值得细细品味。
 
 ```js
 import $$observable from 'symbol-observable'

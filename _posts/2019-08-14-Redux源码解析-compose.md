@@ -69,3 +69,7 @@ export default function compose(...funcs) {
   return funcs.reduce((a, b) => (...args) => a(b(...args)))
 }
 ```
+
+## 参考链接
+
+<a href="https://github.com/reduxjs/redux" target="_blank">https://github.com/reduxjs/redux</a>

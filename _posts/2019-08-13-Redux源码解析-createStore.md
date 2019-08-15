@@ -203,7 +203,7 @@ function observable() {
 这个方法用于提供观察者模式的操作。
 
 
-## createStore.js
+## createStore.js 源码
 
 >直接贴了源码。代码英文注释的很详细，值得细细品味。
 

@@ -43,7 +43,7 @@ console.log(result) //函数f(函数g(函数h(1_2_3)))
 ```
 
 
-## compose.js
+## compose.js 源码
 
 ```js
 /**

@@ -2,7 +2,7 @@
 layout:     post
 title:      Redux 源码解析(三)  combineReducers.js
 subtitle:   逐行解析Redux的API
-date:       2019-08-14
+date:       2019-08-15
 author:     Aro
 header-img: img/post-bg-redux.png
 catalog: true

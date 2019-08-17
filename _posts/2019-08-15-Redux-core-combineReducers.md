@@ -11,7 +11,7 @@ tags:
     - 前端
 ---
 
->目前所分析的Redux版本为4.0.4。`combindeReducer`字面意思就是用来合并reducer的。
+>目前所分析的`Redux`版本为`4.0.4`。`combindeReducer`字面意思就是用来合并reducer的。
 
 
 ## 分析

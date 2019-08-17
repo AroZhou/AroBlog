@@ -11,7 +11,7 @@ tags:
     - 前端
 ---
 
->目前所分析的Redux版本为4.0.4。`createStore`这个模块就是用于创建一个`store`对象，同时，对外暴露出`dispatch`,`getState`,`subscribe`和`replaceReducer`方法。
+>目前所分析的`Redux`版本为`4.0.4`。`createStore`这个模块就是用于创建一个`store`对象，同时，对外暴露出`dispatch`,`getState`,`subscribe`和`replaceReducer`方法。
 
 
 ## 分析
@@ -506,4 +506,4 @@ export default function createStore(reducer, preloadedState, enhancer) {
 
 ## 参考链接
 
-<a href="https://github.com/reduxjs/redux" target="_blank">https://github.com/reduxjs/redux</a>
+- <a href="https://github.com/reduxjs/redux" target="_blank">https://github.com/reduxjs/redux</a>

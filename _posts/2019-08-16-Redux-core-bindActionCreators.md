@@ -11,7 +11,7 @@ tags:
     - 前端
 ---
 
->目前所分析的Redux版本为4.0.4。`bindActionCreators`是`redux`提供的一个辅助方法，能够让我们以方法的形式来调用`action`。同时，自动`dispatch`对应的`action`。这个模块的代码十分简单，只要大家明白了`Function.prototype.apply()`的使用，就能够很清晰的理解这个模块中的每一行代码。
+>目前所分析的`Redux`版本为`4.0.4`。`bindActionCreators`是`redux`提供的一个辅助方法，能够让我们以方法的形式来调用`action`。同时，自动`dispatch`对应的`action`。这个模块的代码十分简单，只要大家明白了`Function.prototype.apply()`的使用，就能够很清晰的理解这个模块中的每一行代码。
 
 
 ## 分析
@@ -111,3 +111,7 @@ export default function bindActionCreators(actionCreators, dispatch) {
   return boundActionCreators
 }
 ```
+
+## 参考链接
+
+- <a href="https://github.com/reduxjs/redux" target="_blank">https://github.com/reduxjs/redux</a>

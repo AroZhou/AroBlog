@@ -229,4 +229,4 @@ export default function combineReducers(reducers) {
 
 ## 参考链接
 
-<a href="https://github.com/reduxjs/redux" target="_blank">https://github.com/reduxjs/redux</a>
+- <a href="https://github.com/reduxjs/redux" target="_blank">https://github.com/reduxjs/redux</a>
